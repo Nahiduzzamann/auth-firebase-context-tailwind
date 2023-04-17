@@ -38,9 +38,10 @@ const Login = () => {
                                 <button className="btn btn-primary">Login</button>
                             </div>
                         </form>
-                        <Link to='/register'>
-                        <button className="btn btn-active btn-link">New to Auth Master</button>
-                        </Link>
+                        <p className='mb-4 ml-2'>
+                            <Link to='/register' className="label-text-alt link link-hover">New to Auth Master? Please Register</Link>
+
+                        </p>
                     </div>
                 </div>
             </div>
